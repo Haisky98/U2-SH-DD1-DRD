@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">find_my_classroom</string>
+    <string name="hello_world">Hello, %1$s!</string>
+</resources>
