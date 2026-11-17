@@ -110,7 +110,8 @@ fun StepTrackerApp() {
     }
 
     Scaffold(
-        timeText = { TimeText() }
+        timeText = { TimeText() },
+        modifier = Modifier.background(Color.Black)
     ) {
         if (savedGoal == null) {
             WelcomeGoalScreen(

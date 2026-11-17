@@ -29,7 +29,6 @@ class ReminderWorker(
         }
         return Result.success()
     }
-
     private fun sendNotification(remaining: Int) {
         val channelId = "step_reminder_channel"
         val channel = NotificationChannel(
